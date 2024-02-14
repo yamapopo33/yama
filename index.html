@@ -1,90 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<meta charset="UTF-8">
+	<title>ネストクリニック 丨 まごころと優しさを大切に</title>
+	<meta name="description" content="まごころと優しさをモットーに患者さんに寄り添った施術を。清潔感溢れるクリニックです。">
+	<meta name="keywords" content="ネストクリニック,病院">
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>aaaaaaaaaaaaaaaa初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+
+<!-- #wrapper ここから -->
+<div id="wrapper">
+
+	<!-- header ここから -->
+	<header>
+		<h1><img src="images/logo.png" alt="まごころと優しさを大切に ネストクリニック"></h1>
+
+		<nav>
+			<ul>
+				<li><a href="#">ネストクリニックについて</a></li>
+				<li><a href="#">担当医の紹介</a></li>
+				<li><a href="#">医院内の紹介</a></li>
+				<li><a href="#">アクセス</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+	</header>
+	<!-- header ここまで -->
+
+
+	<!-- #mainimage ここから -->
+	<div id="mainimage">
+		<img src="images/mainimage.jpg" alt="メイン画像">
+	</div>
+	<!-- #mainimage ここまで -->
+
+	<!-- #left ここから -->
+	<div id="left">
+		<ul>
+			<li><a id="icon_tel" href="#">お電話でのご予約はこちら</a></li>
+			<li><a id="icon_blog" href="#">院長のブログ</a></li>
+			<li><a id="icon_voice" href="#">お客様の声</a></li>
+		</ul>
+	</div>
+	<!-- #left ここまで -->
+
+	<!-- #right ここから -->
+	<div id="right">
+		<h2>お知らせ</h2>
+		<dl>
+			<dt>2014.12.12</dt>
+			<dd>ネストクリニック10周年記念コンサートのおしらせ</dd>
+			<dt>2014.12.12</dt>
+			<dd>平和記念図書館の開館日変更についてのおしらせ</dd>
+			<dt>2014.12.12</dt>
+			<dd>年末年始も休まず営業します</dd>
+			<dt>2014.12.12</dt>
+			<dd>募金活動の結果</dd>
+			<dt>2014.12.12</dt>
+			<dd>元気が出る珈琲試飲会のおしらせ</dd>
+			<div class="clearfix"></div>
+		</dl>
+	</div>
+	<!-- #right ここまで -->
+
+	<div class="clearfix"></div>
+
+</div>
+<!-- #wrapper ここまで -->
+
+
+<!-- footer ここから -->
+<footer>
+
+	<div id="footer_inner">
+
+		<p id="pagetop">
+			<a href="#">PAGETOP</a>
+		</p>
+		<p id="footer_logo">
+			<img src="images/logo_footer.png" alt="まごころと優しさを大切に ネストクリニック">
+		</p>
+
+		<ul>
+			<li><a href="#">ネストクリニックについて</a></li>
+			<li><a href="#">担当医の紹介</a></li>
+			<li><a href="#">医院内の紹介</a></li>
+			<li><a href="#">アクセス</a></li>
+			<div class="clearfix"></div>
+		</ul>
+
+		<div class="clearfix"></div>
+
+	</div>
+
+</footer>
+<!-- footer ここまで -->
+
 </body>
+
 </html>
